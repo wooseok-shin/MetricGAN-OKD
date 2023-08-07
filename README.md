@@ -1,6 +1,6 @@
 ## MetricGAN-OKD: Multi-Metric Optimization of MetricGAN via Online Knowledge Distillation for Speech Enhancement
 
-This is the official PyTorch implementation for the paper "[MetricGAN-OKD](https://proceedings.mlr.press/v202/shin23b.html): Multi-Metric Optimization of MetricGAN via Online Knowledge Distillation for Speech Enhancement" (ICML 2023).
+This is the official PyTorch implementation for the paper "[MetricGAN-OKD](https://proceedings.mlr.press/v202/shin23b.html): Multi-Metric Optimization of MetricGAN via Online Knowledge Distillation for Speech Enhancement".
 
 :bell: We are pleased to announce that MetricGAN-OKD was accepted at **ICML23**. :bell:
 
@@ -16,9 +16,9 @@ Further, the good performance of MetricGAN-OKD is explained in terms of network 
 
 | Target Metric       | PESQ | CSIG | CBAK | COVL | Note |
 |---------------------|------|------|------|------|------|
-| PESQ, CSIG          | 3.24 | 4.23 | 3.07 | 3.73 |------|
-| CSIG, PESQ          | 3.19 | 4.26 | 3.12 | 3.72 |------|
-| PESQ, CSIG+CBAK+COVL| 3.15 | 4.26 | 3.25 | 3.71 |------|
+| PESQ, CSIG          | 3.24 | 4.23 | 3.07 | 3.73 | - |
+| CSIG, PESQ          | 3.19 | 4.26 | 3.12 | 3.72 | - |
+| PESQ, CSIG+CBAK+COVL| 3.15 | 4.26 | 3.25 | 3.71 | - |
 | PESQ, CSIG+CBAK     | 3.12 | 4.17 | 3.13 | 3.64 |Causal|
 
 
