@@ -1,6 +1,6 @@
 ## MetricGAN-OKD: Multi-Metric Optimization of MetricGAN via Online Knowledge Distillation for Speech Enhancement
 
-This is the official PyTorch implementation for the paper"[MetricGAN-OKD](https://proceedings.mlr.press/v202/shin23b.html): Multi-Metric Optimization of MetricGAN via Online Knowledge Distillation for Speech Enhancement" (ICML 2023).
+This is the official PyTorch implementation for the paper "[MetricGAN-OKD](https://proceedings.mlr.press/v202/shin23b.html): Multi-Metric Optimization of MetricGAN via Online Knowledge Distillation for Speech Enhancement" (ICML 2023).
 
 :bell: We are pleased to announce that MetricGAN-OKD was accepted at **ICML23**. :bell:
 
