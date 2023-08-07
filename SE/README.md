@@ -54,17 +54,16 @@ python inference.py --weight_path results/exp1/model/ --weight_file best_model.p
 ## Results and Checkpoints
 We provide checkpoints on the VoiceBank-DEMAND dataset.
 
-| Target Metric       | PESQ | CSIG | CBAK | COVL |
-|---------------------|------|------|------|------|
-| PESQ, CSIG          | 3.24 | 4.23 | 3.07 | 3.73 |
-| CSIG, PESQ          | 3.19 | 4.26 | 3.12 | 3.72 |
+| Target Metric       | PESQ | CSIG | CBAK | COVL | Note |
+|---------------------|------|------|------|------|------|
+| PESQ, CSIG          | 3.24 | 4.23 | 3.07 | 3.73 |------|
+| CSIG, PESQ          | 3.19 | 4.26 | 3.12 | 3.72 |------|
+| PESQ, CSIG+CBAK+COVL| 3.15 | 4.26 | 3.25 | 3.71 |------|
+| PESQ, CSIG+CBAK     | 3.12 | 4.17 | 3.13 | 3.64 |Causal|
 
-| Target Metric          | PESQ | CSIG | CBAK | COVL |
-|------------------------|------|------|------|------|
-| PESQ, CSIG, CBAK, COVL | 3.15 | 4.26 | 3.25 | 3.71 |
-
-Please download the weights file from [our release](), 
+Please download the weights file from [our release](https://github.com/wooseok-shin/MetricGAN-OKD/releases/tag/v1.weights), 
 put them in your path, and run inference.
 ```shell
-python inference.py --weight_path your/path/ --weight_file PESQ-GAN_trial1.pth
+python inference.py --weight_path your/path/ --weight_file 1_PE_CS_Table2.pth
+
 ```

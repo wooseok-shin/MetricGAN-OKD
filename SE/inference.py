@@ -27,7 +27,7 @@ def main():
     parser.add_argument('--weight_file', type=str, default='best_model.pth')
     parser.add_argument('--device', type=str, default='cuda', help='Gpu device')
     parser.add_argument('--save_wavs_path', type=str, default='../pred_wav')
-    parser.add_argument('--base_path', type=str, default='data/VCTK_DEMAND', help='Data base path')
+    parser.add_argument('--base_path', type=str, default='../data/VCTK_DEMAND', help='Data base path')
 
     parser.add_argument('--seed', type=int, default=1)
     parser.add_argument('--causal', type=bool, default=False)

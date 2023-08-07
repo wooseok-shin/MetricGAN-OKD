@@ -14,15 +14,12 @@ Further, the good performance of MetricGAN-OKD is explained in terms of network 
 
 ## Main results (SE)
 
-| Target Metric       | PESQ | CSIG | CBAK | COVL |
-|---------------------|------|------|------|------|
-| PESQ, CSIG          | 3.24 | 4.23 | 3.07 | 3.73 |
-| CSIG, PESQ          | 3.19 | 4.26 | 3.12 | 3.72 |
-
-| Target Metric          | PESQ | CSIG | CBAK | COVL |
-|------------------------|------|------|------|------|
-| PESQ, CSIG, CBAK, COVL | 3.15 | 4.26 | 3.25 | 3.71 |
-
+| Target Metric       | PESQ | CSIG | CBAK | COVL | Note |
+|---------------------|------|------|------|------|------|
+| PESQ, CSIG          | 3.24 | 4.23 | 3.07 | 3.73 |------|
+| CSIG, PESQ          | 3.19 | 4.26 | 3.12 | 3.72 |------|
+| PESQ, CSIG+CBAK+COVL| 3.15 | 4.26 | 3.25 | 3.71 |------|
+| PESQ, CSIG+CBAK     | 3.12 | 4.17 | 3.13 | 3.64 |Causal|
 
 
 ## MetricGAN-OKD for Speech Enhancement
