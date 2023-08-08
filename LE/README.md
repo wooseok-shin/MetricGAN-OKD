@@ -16,7 +16,7 @@ We verified that this is supported in PyTorch versions 1.7.1 to 1.10.1.
 * Noise dataset MS-SNSD (git clone) from [here](https://github.com/microsoft/MS-SNSD) and extract noises in noise_train to `data/Harvard_Sentences/train(or valid/test)/noise/`.
 	* We selected five types of noise for training and validation and three for testing (refer to Section 4.3 in the paper).
 ```shell
-cd LE/
+cd data/Harvard_Sentences/make
 sh make_dataset.sh
 ```
 Then, (manual) select noise types from MS-SNSD and move to the folder "data/Harvard_Sentences/train(or valid/test)/noise/".
