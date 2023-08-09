@@ -11,15 +11,16 @@ We verified that this is supported in PyTorch versions 1.7.1 to 1.10.1.
 
 ## Setup Datasets
 **Harvard Sentences:** Please download the two public speeches (Harvard Sentences) and MS-SNSD noise dataset.
-* Male speaker (zip file containing all Harvard sentences produced in quiet condition) from [here](https://datashare.ed.ac.uk/handle/10283/3239)
-* Female speaker from [here](https://salford.figshare.com/articles/media/Speech_corpus_-_Harvard_-_edited_and_end-pointed_audio/7862465/1)
-* Noise dataset MS-SNSD (git clone) from [here](https://github.com/microsoft/MS-SNSD) and extract noises in noise_train to `data/Harvard_Sentences/train(or valid/test)/noise/`.
+* Male speaker (zip file containing all Harvard sentences produced in quiet condition) from [here](https://datashare.ed.ac.uk/handle/10283/3239).
+* Female speaker from [here](https://salford.figshare.com/articles/media/Speech_corpus_-_Harvard_-_edited_and_end-pointed_audio/7862465/1).
+* Noise dataset MS-SNSD (git clone) from [here](https://github.com/microsoft/MS-SNSD).
 	* We selected five types of noise for training and validation and three for testing (refer to Section 4.3 in the paper).
 ```shell
-cd data/Harvard_Sentences/make
+cd ../data/Harvard_Sentences/make
 sh make_dataset.sh
 ```
-Then, (manual) select noise types from MS-SNSD and move to the folder "data/Harvard_Sentences/train(or valid/test)/noise/".
+Then, (manually) select noise types from MS-SNSD and put them in the folder "data/Harvard_Sentences/train(or valid/test)/noise/".
+
 Finally, execute the command below to mix speech and noise with SNR levels.
 ```shell
 python noisyspeech_synthesizer.py   # set phase and SNR levels in .cfg file
