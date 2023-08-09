@@ -19,7 +19,7 @@ We verified that this is supported in PyTorch versions 1.7.1 to 1.10.1.
 cd ../data/Harvard_Sentences/make
 sh make_dataset.sh
 ```
-Then, (manually) select noise types from MS-SNSD and put them in the folder "data/Harvard_Sentences/train(or valid/test)/noise/".
+Then, (manually) select noise types from MS-SNSD (noise_train/ or noise_test/) and put them in the folder "data/Harvard_Sentences/train(or valid/test)/noise/".
 
 Finally, execute the command below to mix speech and noise with SNR levels.
 ```shell
