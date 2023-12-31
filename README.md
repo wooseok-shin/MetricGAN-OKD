@@ -28,7 +28,18 @@ You can find the source code on speech ehnancement in the subfolder [SE/](https:
 ## MetricGAN-OKD for Listening Enhancement
 You can find the source code on speech ehnancement in the subfolder [LE/](https://github.com/wooseok-shin/MetricGAN-OKD/tree/master/LE).
 
-
-
 ## Todo List
 - [ ] Listening Enhancement implementation (training/testing)
+
+
+## Citation
+If you find the code useful, please consider citing:
+
+    @inproceedings{shin2023metricgan,
+      title={MetricGAN-OKD: multi-metric optimization of MetricGAN via online knowledge distillation for speech enhancement},
+      author={Shin, Wooseok and Lee, Byung Hoon and Kim, Jin Sob and Park, Hyun Joon and Han, Sung Won},
+      booktitle={International Conference on Machine Learning},
+      pages={31521--31538},
+      year={2023},
+      organization={PMLR}
+    }
