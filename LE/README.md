@@ -26,7 +26,6 @@ Finally, execute the command below to mix speech and noise with SNR levels.
 python noisyspeech_synthesizer.py   # set phase and SNR levels in .cfg file
 ```
 
-
 The final folder structure should look like this:
 ```none
 MetricGAN-OKD
